@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles if needed */
+.input {
+  @apply border border-gray-300 rounded p-2 w-full;
+}
+.btn {
+  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition;
+}
