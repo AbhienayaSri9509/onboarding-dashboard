@@ -118,13 +118,16 @@ Clean codebase: Modular React components and hooks for maintainability.
  🖼️ Screenshots
 
 🔹 Step 1
-![Step 1](C:\Users\HP\Downloads\Step1.jpg)
+
+![Step 1 Screenshot](assets/step1.jpg)
 
 🔹 Step 2
-![Step 2](C:\Users\HP\Downloads\Step2.jpg)
+![Step 2 Screenshot](assets/step2.jpg)
+
 
 🔹 Step 3
-![Step 3](C:\Users\HP\Downloads\Step3.jpg)
+![Step 3 Screenshot](assets/step3.jpg)
 
  📊 Dashboard
-![Dashboard](C:\Users\HP\Downloads\dashboard.jpg)
+![Step 4 Screenshot](assets/dashboard.jpg)
+
