@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Step1 from '../assets/Step1.jpg';
 
 const Step1 = ({ onNext }) => {
   const [name, setName] = useState('');

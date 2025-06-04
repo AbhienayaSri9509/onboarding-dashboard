@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Step3 from '../assets/Step3.jpg';
 
 const Step3 = ({ onNext, onBack }) => {
   const [theme, setTheme] = useState('light');

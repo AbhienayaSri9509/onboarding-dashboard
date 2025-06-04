@@ -83,12 +83,13 @@ bash
 Copy
 Edit
 npm install
+
 3. Start the Development Server
 bash
 Copy
 Edit
 npm start
-Then, open your browser and visit http://localhost:3000
+Then, open your browser and visit http://localhost:3000/dashboard 
 
 💡 Key Features:
 
@@ -117,13 +118,13 @@ Clean codebase: Modular React components and hooks for maintainability.
  🖼️ Screenshots
 
 🔹 Step 1
-![Step 1](./src/assets/step1.jpg)
+![Step 1](C:\Users\HP\Downloads\Step1.jpg)
 
 🔹 Step 2
-![Step 2](./src/assets/step2.jpg)
+![Step 2](C:\Users\HP\Downloads\Step2.jpg)
 
 🔹 Step 3
-![Step 3](./src/assets/step3.jpg)
+![Step 3](C:\Users\HP\Downloads\Step3.jpg)
 
  📊 Dashboard
-![Dashboard](./src/assets/dashboard.jpg)
+![Dashboard](C:\Users\HP\Downloads\dashboard.jpg)

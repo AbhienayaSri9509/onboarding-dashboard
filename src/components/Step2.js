@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Step2 from '../assets/Step2.jpg';
 
 const Step2 = ({ onNext, onBack }) => {
   const [company, setCompany] = useState('');
