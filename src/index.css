@@ -1,11 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* index.css */
 
-/* Custom styles if needed */
-.input {
-  @apply border border-gray-300 rounded p-2 w-full;
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #82a8c4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
 .btn {
-  @apply bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition;
+  padding: 10px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+/* Progress bar */
+.progress-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.progress-bar div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.progress-bar .active {
+  background-color: #5ec451;
+  color: rgb(205, 204, 204);
+}
+
+.progress-bar .inactive {
+  background-color: #cccccc;
+  color: #555;
 }
