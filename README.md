@@ -1,4 +1,5 @@
-                        ONBOARDING DASHBOARD
+ONBOARDING DASHBOARD
+                        
 A sleek and modern React application designed to streamline the employee onboarding process and provide insightful user dashboards — all in one intuitive interface.
 
 🚀 Project Overview
