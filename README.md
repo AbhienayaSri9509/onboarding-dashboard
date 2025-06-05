@@ -119,14 +119,14 @@ Clean codebase: Modular React components and hooks for maintainability.
 
 🔹 Step 1
 
-![Step 1 Screenshot](assets/step1.jpg)
+![Step 1 Screenshot](assets/Step1.jpg)
 
 🔹 Step 2
-![Step 2 Screenshot](assets/step2.jpg)
+![Step 2 Screenshot](assets/Step2.jpg)
 
 
 🔹 Step 3
-![Step 3 Screenshot](assets/step3.jpg)
+![Step 3 Screenshot](assets/Step3.jpg)
 
  📊 Dashboard
 ![Step 4 Screenshot](assets/dashboard.jpg)

@@ -13,9 +13,14 @@ const Dashboard = () => {
     { name: 'Fri', tasks: 3 }
   ];
 
+  // Safe click handler to avoid circular JSON error
   const handleClick = (e) => {
-    const btnName = e.target.name;
-    console.log("Button clicked:", btnName);
+    // Log only safe properties, never stringify the entire event target
+    console.log('Clicked button info:', {
+      name: e.target.name,
+      id: e.target.id,
+      text: e.target.innerText
+    });
   };
 
   return (
@@ -30,25 +35,6 @@ const Dashboard = () => {
           <div className="bg-white p-4 shadow rounded">Notifications: 2</div>
         </div>
 
-        {/* Action buttons */}
-        <div className="mt-4 space-x-2">
-          <button
-            name="refreshBtn"
-            onClick={handleClick}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
-          >
-            Refresh
-          </button>
-          <button
-            name="logoutBtn"
-            onClick={handleClick}
-            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded"
-          >
-            Logout
-          </button>
-        </div>
-
-        {/* Chart */}
         <h2 className="text-lg mt-6 mb-2">Weekly Progress</h2>
         <BarChart width={500} height={300} data={chartData}>
           <CartesianGrid strokeDasharray="3 3" />
@@ -57,6 +43,16 @@ const Dashboard = () => {
           <Tooltip />
           <Bar dataKey="tasks" fill="#8884d8" />
         </BarChart>
+
+        {/* Example button to demonstrate safe click handler */}
+        <button
+          name="exampleButton"
+          id="btn1"
+          className="mt-6 px-4 py-2 bg-blue-500 text-white rounded"
+          onClick={handleClick}
+        >
+          Click Me
+        </button>
       </div>
     </div>
   );
