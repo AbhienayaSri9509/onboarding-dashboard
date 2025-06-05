@@ -1,33 +1,25 @@
-import { useState } from 'react';
-import Step1 from '../assets/Step1.jpg';
+import React, { useState } from 'react';
 
 const Step1 = ({ onNext }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
-  const handleSubmit = () => {
-    if (!name || !email) return alert('All fields are required');
-    onNext({ name, email });
-  };
-
   return (
     <div>
-      <h2 className="text-lg font-bold">Step 1: Personal Info</h2>
+      <h2>Step 1: Personal Info</h2>
       <input
-        className="input mt-2"
+        type="text"
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-      />
+      /><br />
       <input
-        className="input mt-2"
+        type="email"
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-      />
-      <button className="btn mt-4" onClick={handleSubmit}>
-        Next
-      </button>
+      /><br />
+      <button onClick={onNext}>Next</button>
     </div>
   );
 };
